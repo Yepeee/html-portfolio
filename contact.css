@@ -1,0 +1,331 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  :root {
+    --text-primary: rgba(0, 0, 0, 0.8);
+    --button-color: rgba(0, 0, 246, 0.9);
+  }
+  
+  body {
+    width: 100%;
+    height: 100vh;
+  }
+  
+  .container {
+    width: 100%;
+    height: 100vh;
+  }
+  /* ============================ NAVBAR START ============ */
+  .navbar {
+    display: flex;
+    width: 100%;
+    height: 50px;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    border: 5px solid rgba(0, 0, 0, 0.11);
+  }
+  .logo{
+    font-size: 2rem;
+    position: relative;
+    right: 870px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: var(--text-primary);
+}
+
+.span-logo{
+  color: var(--button-color);
+}
+  a {
+    padding: 4px 30px;
+    text-decoration: none;
+    color: var(--text-primary);
+    font-size: 22px;
+    display: flex;
+    justify-content: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  
+  
+.contact{
+    background-color: rgba(128, 128, 128, 0.226);
+  
+}
+
+
+  th:hover {
+    background-color: rgba(128, 128, 128, 0.226);
+    transition: ease-in-out 0.2s;
+  }
+
+  /* ============================== CONTENT START ========================= */
+  .content {
+    width: 100%;
+    height: 92vh;
+    background-image: url(background.jpg);
+    display: flex;
+    align-items: center;
+  }
+
+  .input-contact{
+    width: 700px;
+    height: 500px;
+    background-color: white;
+  box-shadow: 0px 0px 20px 1px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  display: flex;
+  margin: auto;
+    /* position: relative;
+    left: 350px;
+    bottom:30px; */
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .right-contact{
+    width: 70px;
+    height: 280px;
+    background-color: white;
+  box-shadow: 0px 0px 20px 1px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+    position: absolute;
+    left: 1080px;
+    bottom:190px;
+    
+  }
+
+
+.name {
+  width: 400px;
+  height: 50px;
+  border: 0;
+  position: relative;
+  top: 30px;
+  left: 30px;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.name:focus{
+  outline: none;
+}
+.email:focus{
+  outline: none;
+}
+.message:focus{
+  outline: none;
+}
+.email{
+  width: 400px;
+  height: 50px;
+  border: 0;
+  position: relative;
+  top: 30px;
+  left: 30px;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+.message{
+  width: 600px;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  border: 0;
+  position: relative;
+  top: 30px;
+  left: 30px;
+ margin-top: 20px;
+}
+.logo-input{
+ position: relative;
+ top: 20px;
+ left: 30px;
+ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+hr{
+  width:500px;
+  height: 4px;
+  background-color: rgba(0, 0, 0, 0.35);
+  position: relative;
+  top: 30px;
+  left: 30px;
+
+}
+
+.button-parent{
+  position: relative;
+  top:100px;
+  left: 30px;
+}
+
+.button-submit{
+  width: 100px;
+  height: 35px;
+  margin-left: 3px;
+  border: 0;
+  background-color: var(--button-color);
+  border-radius: 7px;
+}
+
+.button-submit:hover{
+  width: 100px;
+  height: 35px;
+  margin-left: 3px;
+  border: 0;
+  background-color: rgba(128, 128, 128, 0.5);
+  border-radius: 7px;
+  transition: ease-in-out 0.2s;
+}
+
+.button-contact{
+  width: 100px;
+  height: 35px;
+  border: 0;
+  background-color:rgba(128, 128, 128, 0.5);
+  border-radius: 7px;
+  color: var(--text-primary);
+}
+
+.button-contact:hover{
+  width: 100px;
+  height: 35px;
+  border: 0;
+  background-color: rgba(128, 128, 128, 0.5);
+  border-radius: 7px;
+  transition: ease-in-out 0.2s;
+
+
+}
+
+.btn{
+  color: white;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+a:hover{
+  color: var(--text-primary);
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  transition: ease-in-out 0.2s;
+
+}
+
+
+
+/* =================== CONTENT KANAN ============= */
+.sosmed{
+display: flex;
+flex-direction: column;
+}
+.span-logo-right{
+  color: var(--button-color);
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+.ig , .email2 , .github , .linkedin , .adress{
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  margin:3px 10px;
+  border:0;
+
+}
+.btn-ig{
+  height: 100%;
+}
+
+
+.ig{
+  height: 50px;
+  border-radius: 100px;
+  background-image: url(instagram1.png);
+  background-size:cover;
+  border: 0;
+  box-shadow: 0px 0px 3px 1px rgba(0, 0, 0, 0.5);
+}
+.ig:hover{
+  height: 50px;
+  border-radius: 100px;
+  background-image: url(instagram1.png);
+  background-size:cover;
+  border: 0;
+  box-shadow: 0px 0px 3px 1px rgba(0, 0, 0, 1);
+}
+.email2{
+  height: 50px;
+  border-radius: 100px;
+  background-image: url(instagram1.png);
+  background-size: cover;
+  border: 0;
+  box-shadow: 0px 0px 3px 1px rgba(0, 0, 0, 0.5);
+
+}
+.email2:hover{
+  height: 50px;
+  border-radius: 100px;
+  background-image: url(instagram1.png);
+  background-size:cover;
+  border: 0;
+  box-shadow: 0px 0px 3px 1px rgba(0, 0, 0, 1);
+}
+.github{
+  height: 50px;
+  border-radius: 100px;
+  background-image: url(instagram1.png);
+  background-size: cover;
+  border: 0;
+  box-shadow: 0px 0px 3px 1px rgba(0, 0, 0, 0.5);
+}
+.github:hover{
+  height: 50px;
+  border-radius: 100px;
+  background-image: url(instagram1.png);
+  background-size:cover;
+  border: 0;
+  box-shadow: 0px 0px 3px 1px rgba(0, 0, 0, 1);
+}
+.linkedin{
+  height: 50px;
+  border-radius: 100px;
+  background-image: url(instagram1.png);
+  background-size: cover;
+  border: 0;
+  box-shadow: 0px 0px 3px 1px rgba(0, 0, 0, 0.5);
+}
+.linkedin:hover{
+  height: 50px;
+  border-radius: 100px;
+  background-image: url(instagram1.png);
+  background-size:cover;
+  border: 0;
+  box-shadow: 0px 0px 3px 1px rgba(0, 0, 0, 1);
+}
+.adress{
+  height: 50px;
+  border-radius: 100px;
+  background-image: url(instagram1.png);
+  background-size: cover;
+  border: 0;
+  box-shadow: 0px 0px 3px 1px rgba(0, 0, 0, 0.5);
+}
+.adress:hover{
+  height: 50px;
+  border-radius: 100px;
+  background-image: url(instagram1.png);
+  background-size:cover;
+  border: 0;
+  box-shadow: 0px 0px 3px 1px rgba(0, 0, 0, 1);
+}
+
+.copyright{
+  position: fixed;
+  /* top:200px;
+  left: 440px; */
+  bottom: 86px;
+  left: 860px;
+}
+
+
+  /*=============================== CONTENT END ====================================== */
